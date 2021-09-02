@@ -1,0 +1,24 @@
+{
+  "name": "download-file-puppeteer",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "hamlin.li <sclihuiming@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/download-file-puppeteer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+	"start": "node lib/download-file-puppeteer.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^10.2.0"
+  }
+}
