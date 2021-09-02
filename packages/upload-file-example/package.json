@@ -1,0 +1,30 @@
+{
+  "name": "upload-file-example",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "hamlin.li <sclihuiming@163.com>",
+  "homepage": "https://github.com/sclihuiming/gadget#readme",
+  "license": "ISC",
+  "main": "lib/upload-file-example.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclihuiming/gadget.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sclihuiming/gadget/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0"
+  }
+}
